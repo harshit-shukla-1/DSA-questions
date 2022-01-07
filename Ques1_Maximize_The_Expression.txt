@@ -1,0 +1,15 @@
+Ques1 Introductory Text:
+
+Ques1 is Maximize the expression in which you are given an array of integers and three values, p,q and r. You have to select i, j and k such that
+
+ p*arr[i] + q*arr[j] + r*arr[k] expression should give the maximum possible value,the only constraint is that, i<j<k.
+
+Ques1a: In this we are taking p, q and r as 1 so that to maximize the expression.
+
+Ques1b: In this we are taking p,q and r as integers and they can have any value, this is the solution for Maximize the expression Question.
+
+Ques1c: In this i<=j<=k, that means i j and k can have same values, this is another case for maximize the expression.
+
+Solution : In this we first calculate the prefix max and suffix max of the array and then iterate the array by fixing the middle element of the expression and checking which values give the maximum for the expression.
+
+Note:Here in place of using a suffix max array we can use a variable instead and calculate the suffix max from the prefix max array
