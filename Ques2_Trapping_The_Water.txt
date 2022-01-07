@@ -1,0 +1,5 @@
+In this question,an integer array is given which has different heights of the pillars, you have to determine the height of trapped water inbetween the pillars.
+
+Solution: In this you take the prefix max array and suffix max array of the given array and then iterate from second pillar to second last pillar and check what is the maximum height in the left and right of that pillar and then find the minimum of the two. If that minimum height is greater than the current pillar then the difference between the minimum height and currrent pillar is the amount of water stored for that pillar. If the minimum height is either equal to or less than the current pillar then no amount of water will be trapped in that pillar.
+
+The solution is implemented in the Ques2.java file
