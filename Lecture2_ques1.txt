@@ -1,0 +1,4 @@
+An integer of array of size n. There are q number of queries. Every query will be composed of 2 integers l and r.
+l and r will be indices of your array. So both these indices will represent a sub array of the main array.
+You have to return the sum of that sub array.
+
