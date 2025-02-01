@@ -1,0 +1,2 @@
+An integer array of size n. There are q number of queries. Every query will composed of 1 integer i. You have to return
+the maximum number till that index.
